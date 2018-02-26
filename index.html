@@ -7,80 +7,68 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="description" content="Ryan Carson's Professional Portfolio">
 	<title>Ryan Carson</title>
-	<link rel="layoutsheet" href="./layout.css">
-	<link rel="stylesheet" href="./style.css">
+	<link rel="layoutsheet" href="./css/layout.css">
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
   	<div class="container">
-  		<div class="header">
-  			<h3>Ryan Carson</h3>
-  		</div>
+  		<header>
+  			<img class="logo" src="./images/logo.png">
+  		</header>
 
 
-  	<!-- Making a fixed Siebar for navigation -->
+  		<!-- Making a fixed Siebar for navigation -->
   		<div class="sidebar">
   			<nav>
   				<ul class="fixed-nav-list">
-  					<li><a href="#about-me">About Me</a></li>
+  					<li><a href="#about-me-link">About Me</a></li>
   					<li><a href="#projects">Projects</a></li>
+  					<li><a href="#social-media">Social Media</a></li>
   				</ul>
   			</nav>
   		</div>
 
 
-  		<div class = "main">
+  		<main>
+  			<section id="jumbotron">
+  				<img class="hello" src="./images/headshot.jpg">
+  			</section>
   			<section id="about-me">
   				<h2>About Me</h2>
-  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  				<p>Welcome! My name is Ryan Carson and I’m currently an apprentice software developer at an accelerated software development program with an emphasis on Java and Javascript. In the past I’ve spent time in athletic coaching, child care and financial counseling and I graduated with a philosophy degree from Kenyon College. At the moment I’m particularly focused on adding more programming tools to my work belt and becoming comfortable with more programming languages. I'm hoping to move and find work sometime in the next few months. If you're hoping to get in touch with me, a link to my LinkedIn account with all of my contact information is down below.</p>
   			</section>
   			<section id="projects">
   				<article class="project">
-  					<h3>Project One</h3>
-  					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  					<h3>reviews</h3>
+  					<p>Reviews was a project made using spring initializer, java, and HTML5. The basic goal of the challenge was to create a locally hosted website using the spring initializer so as to become comfortable with using Spring MVC, as well as to gain a solid grasp on the logic going on behind the front-end. I decided to review a few video games I had played recently, and the challenge behind creating the website was a true joy to try my hand at.</p>
   					<button class="btn">See in Github</button>
   				</article>
   				<article class="project">
-  					<h3>Project Two</h3>
-  					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  					<h3>virtual-pets-amok</h3>
+  					<p>This project was far and away the most challenging of the tasks we've tackled at We Can Code It. This was an almost entirely back-end focused project using java and OOP, along with a nigh masochistic relationship with TDD, that challenged me to slow-down and prepare a map of how I was going to create a virtual pet shelter full of pets with both similar and differing needs. This required the implementation of interfaces and superclasses to build out the classes of each individual type of animal.</p>
   					<button class="btn">See in Github</button>
   				</article>
   				<article class="project">
-  					<h3>Project Three</h3>
-  					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  					<h3>professional-portfolio</h3>
+  					<p>You are actually looking at my most recent project! I used a combination of HTML5 and CSS, particularly Grid and Flexbox, to build this website from the bottom up. There was no bootstrapping involved in the making of this website, just some help from github in laying the groundwork. This project was quite pleasant after all the heavy back-end work we started the bootcamp with!</p>
   					<button class="btn">See in Github</button>
   				</article>
   			</section>
-  		</div>
+  		</main>
 
 
-  		<div class="footer">
+  		<footer>
   			<!--Use the footer for social media tags or something like that.
   				It DOES have to be used for grading purposes.-->
-  				<button class="btn">LinkedIn</button>
-  				<button class="btn">Chili Blog</button>
-  				<button class="btn">Github Profile</button>
-  		</div>
+  			<section id="social-media">
+  				<ul>
+  					<button class="btn">LinkedIn</button>
+  					<button class="btn">Chili Blog</button>
+  					<button class="btn">GitHub</button>
+  				</ul>
+  			</section>		
+  		<footer>
   	</div>
 </body>
 </html>
