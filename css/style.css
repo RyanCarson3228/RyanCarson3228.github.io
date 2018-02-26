@@ -127,6 +127,7 @@ main{
     padding-top: 20px;
     margin-top: 110px;
     border-right: solid;
+    opacity: 0;
 }
 
 .fixed-nav-list{
@@ -134,25 +135,6 @@ main{
 	display: grid;
 	flex-direction: column;
 	justify-content: space-around;
-}
-.about-me-link{color: green;}
-
-
-footer{
-	display:grid;
-	grid-row: 3/4;
-	background-color: honeydew;
-	grid-column: 2/3;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: darkslateblue;
-}
-#social-media{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	width: 90%;
 }
 
 .btn1{
