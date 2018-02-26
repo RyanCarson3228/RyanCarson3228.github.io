@@ -1,17 +1,22 @@
 .container{
-	display: grid;
-	margin: 2rem auto 2rem auto;
-	grid-template-columns: 1000px 100px;
+	display:grid;
+	height: 100vh;
+	grid-template-columns: 200px auto;
 }
 
-header {
+.header {
 	display: flex;
-	display: grid;
 	justify-content: space-around;
 	align-items: center;
+	grid-column: 1/2;
 }
 
-/* Sidebar Work */
+.main{
+	display: grid;
+	grid-template-rows: 500px 500px;
+}
+
+/* Sidebar Work
 .sidebar {
     height: 100%;
     width: 160px;
@@ -22,9 +27,11 @@ header {
     background-color: #111;
     overflow-x: hidden;
     padding-top: 20px;
-}
+    grid-column: 1/2;
+} */
 
-footer{
+.footer{
 	display:grid;
+	grid-row: 2/3;
 
 }
