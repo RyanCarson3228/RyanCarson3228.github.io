@@ -102,7 +102,7 @@ main{
 footer{
 	display:grid;
 	grid-row: 3/4;
-	background-color: orange;
+	background-color: honeydew;
 	grid-column: 2/3;
 	display: flex;
 	justify-content: center;
