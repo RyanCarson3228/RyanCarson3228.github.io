@@ -11,8 +11,8 @@ body{
 
 .container{
 	display:grid;
-	grid-template-rows: 110px auto;
-	grid-template-columns: 150px auto;
+	grid-template-rows: 7rem auto;
+	grid-template-columns: 9.375rem	 auto;
 	max-width: 100vw;
 }
 
@@ -22,8 +22,8 @@ header {
 	justify-content: space-around;
 	align-items: center;
 	grid-column: 1/2;
-	max-height: 110px;
-	width:150px;
+	max-height: 7rem;
+	width:9.375rem;
 	display: grid;
 	background-image: url(https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/14047127_1122910667766713_452372998490271705_o.jpg?oh=43a54a5f163ee55dd2ff98488adbc8ad&oe=5B06ED7E);
 	border: solid;
@@ -36,6 +36,7 @@ main{
 	grid-template-rows: 100vh auto auto;
 	grid-template-columns: repeat(3, 3fr);
 	background-image: url(https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/11874998_928844030506712_6585627772532774171_o.jpg?oh=43e4768f7053366a8b3e5404c352d498&oe=5B18C25A);
+
 	padding-bottom: 2rem;
 }
 
@@ -48,7 +49,7 @@ main{
 }
 .hello{
 	position: relative;
-	max-height: 646px;
+	max-height: 40.375rem;
 	border-radius: 50%;	
 	border: groove;
 	margin-left: 
@@ -57,7 +58,7 @@ main{
 #about-me{
 	display: grid;
 	grid-column: 1/-1;
-	padding-bottom: 15px;
+	padding-bottom: 1rem;
 	margin-bottom: 1rem;
 	margin-left: 2rem;
 	margin-right: 2rem;
@@ -71,7 +72,7 @@ main{
 	display: grid;
 	display: flex;
 	grid-column: 1/-1;
-	grid-template-rows: 50px auto;
+	grid-template-rows: 3.125rem auto;
 	grid-template-columns: repeat(3, 3fr);
 	
 }
@@ -82,7 +83,7 @@ main{
 	grid-column: 2/3;
 	flex-direction: column;
 	border: solid;
-	padding: 5px; 
+	padding: .5rem; 
 	background-color: ivory;
 	margin-left: 2rem;
 	text-align: center;
@@ -94,7 +95,7 @@ main{
 	grid-column: 2/3;
 	flex-direction: column;
 	border: solid;
-	padding: 5px; 
+	padding: .5rem; 
 	margin-left: 1rem;
 	margin-right: 1rem;
 	background-color: ivory;
@@ -107,7 +108,7 @@ main{
 	grid-column: 2/3;
 	flex-direction: column;
 	border: solid;
-	padding: 5px; 
+	padding: .5rem; 
 	background-color: ivory;
 	margin-right: 2rem;
 	text-align: center;
@@ -117,17 +118,17 @@ main{
 /* Sidebar Work */
 .sidebar {
     height: 100%;
-    width: 150px;
+    width: 9.375rem;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: aqua;
     overflow-x: hidden;
-    padding-top: 20px;
-    margin-top: 110px;
+    padding-top: 1.25rem;
+    margin-top: 7rem;
     border-right: solid;
-    opacity: 0;
+    background-opacity: .75;
 }
 
 .fixed-nav-list{
