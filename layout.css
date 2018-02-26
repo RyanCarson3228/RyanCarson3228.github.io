@@ -1,5 +1,30 @@
 .container{
+	display: grid;
+	margin: 2rem auto 2rem auto;
+	grid-template-columns: 1000px 100px;
+}
+
+header {
+	display: flex;
+	display: grid;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* Sidebar Work */
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+footer{
 	display:grid;
-	grid-template-columns: 100px auto;
-	grid-template-rows: 100px auto;
+
 }
