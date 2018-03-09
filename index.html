@@ -7,18 +7,19 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="description" content="Ryan Carson's Professional Portfolio">
 	<title>Ryan Carson</title>
-	<link rel="stylesheet" href="./css/layout.css">
-	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/js-layout.css">
+	<link rel="stylesheet" href="./css/js-style.css">
 </head>
 
 <body>
   	<div class="container">
+      <!-- Make a header. We want this to be a small portion the same width ass the sidebar -->
   		<header>
   			<img class="logo" src="./images/logo.png">
   		</header>
 
 
-  		<!-- Making a fixed Siebar for navigation -->
+  		<!-- Making a fixed Sidebar for navigation -->
   		<div class="sidebar">
   			<nav>
   				<ul class="fixed-nav-list">
@@ -32,14 +33,19 @@
   			</nav>
   		</div>
 
-
+      <!--Working on the main section  -->
   		<main>
+        <!-- Jumbotron should have my headshot and wil rotate on hover to how the About Me section -->
   			<section id="jumbotron">
-  				<img class="hello" src="./images/headshot.jpg">
-  			</section>
-  			<section id="about-me">
-  				<h2>About Me</h2>
-  				<p>Welcome! My name is Ryan Carson and I’m currently an apprentice software developer at an accelerated software development program with an emphasis on Java and Javascript. In the past I’ve spent time in athletic coaching, child care and financial counseling and I graduated with a philosophy degree from Kenyon College. At the moment I’m particularly focused on adding more programming tools to my work belt and becoming comfortable with more programming languages. I'm hoping to move and find work sometime in the next few months. If you're hoping to get in touch with me, a link to my LinkedIn account with all of my contact information is down below.</p>
+            <div id = "jumbotron-card">
+            <div class="front face">
+  			     <img class="headshot" src="./images/headshot.jpg">
+            </div>
+            <div class="back face center">
+               <h2>About Me</h2>
+               <p>Welcome! My name is Ryan Carson and I’m currently an apprentice software developer at an accelerated software development program with an emphasis on Java and Javascript. In the past I’ve spent time in athletic coaching, child care and financial counseling and I graduated with a philosophy degree from Kenyon College. At the moment I’m particularly focused on adding more programming tools to my work belt and becoming comfortable with more programming languages. I'm hoping to move and find work sometime in the next few months. If you're hoping to get in touch with me, a link to my LinkedIn account with all of my contact information can be found in the sidebar.</p> 
+            </div>
+            </div>
   			</section>
   			<section id="projects">
   				<article class="project-left">
@@ -54,11 +60,16 @@
   				</article>
   				<article class="project-right">
   					<h3>professional-portfolio</h3>
-  					<p>You are actually looking at my most recent project! I used a combination of HTML5 and CSS, particularly Grid and Flexbox, to build this website from the bottom up. There was no bootstrapping involved in the making of this website, just some help from github in laying the groundwork. This project was quite pleasant after all the heavy back-end work we started the bootcamp with!</p>
+  					<p>You are actually looking at my most recent project! I used a combination of HTML5 and CSS, particularly Grid and Flexbox, to build this website from the bottom up. There was no bootstrapping involved in the making of this website, just some help from Github in hosting. I've since revisited the prject to introduce javascript elements including an image-carousel and modal box. It has not yet been optimized for mobile.</p>
   					<a href="https://github.com/RyanCarson3228/RyanCarson3228.github.io"><button type="button" class="btn2">See in GitHub</button></a>
   				</article>
   			</section>
   		</main>
+      <footer> 
+          <!-- put the image carousel in the footer -->
+          <div class="image-carousel">
+      </footer>
   	</div>
+    <script type="text/javascript" src="src/app.js"></script>
 </body>
 </html>
