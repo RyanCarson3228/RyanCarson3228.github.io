@@ -52,6 +52,10 @@ main{
 	
 }
 
+.toggle-text{
+	display: none;
+}
+
 .project-left{
 	border: solid;
 	background-color: ivory;
@@ -79,6 +83,22 @@ main{
 
 }
 
+#btn-modal{
+	border: solid;
+	color: black;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0;
+}
+
+.btn-toggle{
+	border: solid;
+	color: black;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0;
+}
+
 .btn1{
 	border: solid;
 	color: black;
@@ -100,3 +120,6 @@ main{
     text-decoration: none;
     cursor: pointer;
 }
+/*.image-carousel-container{
+	background-image:linear-gradient(yellow, red);
+}*/

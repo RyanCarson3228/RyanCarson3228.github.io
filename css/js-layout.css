@@ -82,11 +82,11 @@ main{
 }
 
 #projects{
-	display: grid;
 	display: flex;
 	grid-column: 1/-1;
 	grid-template-rows: 3.125rem auto;
-	grid-template-columns: repeat(3, 3fr);
+	grid-template-columns: repeat(3, 33%);
+	justify-content: center;
 	
 }
 
@@ -131,14 +131,73 @@ main{
     padding-top: 1.25rem;
     margin-top: 7rem
 }
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 15%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */	
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 .fixed-nav-list{
 	display: flex;
 	display: grid;
 	flex-direction: column;
 	justify-content: space-around;
+	visibility: hidden;
+}
+.show-menu{
+	visibility: visible;
+	margin: auto;
 }
 
+
+#btn-modal{
+	padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 10px;
+    width: 90%;
+}
+.btn-toggle{
+	padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 10px;
+    width: 90%;
+}
 .btn1{
 	padding: 15px 32px;
     text-align: center;
@@ -164,3 +223,70 @@ main{
     margin: 10px 10px;
 }
 
+footer{
+	display: flex;
+	grid-row: 3/-1;
+	grid-column: 2/-1;
+	max-height: 100rem;
+	justify-content: center;
+}
+
+.-image-carousel-container{
+  position: relative;
+  max-width: 1000px;
+  max-height: 100rem;
+  margin: auto;
+  display: flex;
+}
+.slide{
+	display: none;
+
+}
+.text{
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  /*position: absolute;*/
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  background-size: contain;
+}
+.numbertext{
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  /*position: absolute;*/
+  top: 0;
+}
+.dot{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  /*display: flex;*/
+  justify-content: center;
+}
+.active, .dot:hover{
+	background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
