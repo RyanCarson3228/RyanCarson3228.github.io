@@ -7,97 +7,11 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="description" content="Ryan Carson's Professional Portfolio">
 	<title>Ryan Carson</title>
-	<link rel="stylesheet" href="./css/js-layout.css">
-	<link rel="stylesheet" href="./css/js-style.css">
+	<link rel="stylesheet" href="./css/layout.css">
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  	<div class="container">
-  		<header>
-  			<img class="logo" src="./images/logo.png">
-  		</header>
-  		<div class="sidebar">
-  			<nav>
-          <button type="button" id="btn-modal">Contact Information</button></a></li>
-          <div id="myModal" class="modal">
-          <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>If I were going to keep this it would display my contact Information. </p>
-          </div>
-          </div>
-
-          <button type="button" class="btn-toggle">Toggle Nav</button>
-  				<ul class="fixed-nav-list">
-  					<li><a href="#projects"><button type="button" class="btn1">Projects</button></a></li>
-            <li><a href="https://github.com/RyanCarson3228"><button type="button" class="btn1">GitHub</button></a></li>
-            <li><a href="https://www.linkedin.com/in/ryan-carson/"><button type="button" class="btn1">LinkedIn</button></a></li>
-            <li><a href="http://www.susanbranch.com/chili/"><button type="button" class="btn1">Chili Blog</button></a></li>
-  				</ul>
-  			</nav>
-  		</div>
-
-  		<main>
-  			<section id="jumbotron">
-            <div id = "jumbotron-card">
-            <div class="front face">
-  			     <img class="headshot" src="./images/headshot.jpg">
-            </div>
-            <div class="back face center">
-               <h2>About Me</h2>
-               <p>Welcome! My name is Ryan Carson and I’m currently an apprentice software developer at an accelerated software development program with an emphasis on Java and Javascript. In the past I’ve spent time in athletic coaching, child care and financial counseling and I graduated with a philosophy degree from Kenyon College. At the moment I’m particularly focused on adding more programming tools to my work belt and becoming comfortable with more programming languages. I'm hoping to move and find work sometime in the next few months. If you're hoping to get in touch with me, a link to my LinkedIn account with all of my contact information can be found in the sidebar.</p> 
-            </div>
-            </div>
-  			</section>
-  			<section id="projects">
-  				<article class="project-left">
-  					<h3>reviews</h3>
-            <button onclick="expandButton1()">Toggle Description</button>
-            <p>A basic review website.</p>
-  					<p id="toggleProj1" style="display: none">Reviews was a project made using spring initializer, java, and HTML5. The basic goal of the challenge was to create a locally hosted website using the spring initializer so as to become comfortable with using Spring MVC, as well as to gain a solid grasp on the logic going on behind the front-end. I decided to review a few video games I had played recently, and the challenge behind creating the website was a true joy to try my hand at.</p>
-  					<a href="https://github.com/RyanCarson3228/reviews"><button type="button" class="btn2">See in GitHub</button></a>
-  				</article>
-  				<article class="project-mid">
-  					<h3>virtual-pets-amok</h3>
-            <button onclick="expandButton2()">Toggle Description</button>
-            <p>A spiritual successor of the Tamagotchi.</p>
-  					<p id="toggleProj2" style="display: none">This project was far and away the most challenging of the tasks we've tackled at We Can Code It. This was an almost entirely back-end focused project using java and OOP, along with a nigh masochistic relationship with TDD, that challenged me to slow-down and prepare a map of how I was going to create a virtual pet shelter full of pets with both similar and differing needs. This required the implementation of interfaces and superclasses to build out the classes of each individual type of animal.</p>
-  					<a href="https://github.com/RyanCarson3228/virtual-pets-amok"><button type="button" class="btn2">See in GitHub</button></a>
-  				</article>
-  				<article class="project-right">
-  					<h3>professional-portfolio</h3>
-            <button onclick="expandButton3()">Toggle Description</button>
-            <p>A website built from the bottom up.</p>
-  					<p id="toggleProj3" style="display: none">You are actually looking at my most recent project! I used a combination of HTML5 and CSS, particularly Grid and Flexbox, to build this website from the bottom up. There was no bootstrapping involved in the making of this website, just some help from Github in hosting. I've since revisited the prject to introduce javascript elements including an image-carousel and modal box. It has not yet been optimized for mobile.</p>
-  					<a href="https://github.com/RyanCarson3228/RyanCarson3228.github.io"><button type="button" class="btn2">See in GitHub</button></a>
-  				</article>
-  			</section>
-  		</main>
-      <footer> 
-        <div class ="image-carousel-container">
-          <!-- Slides -->
-          <div class= "slide fade">
-            <div class="numbertext">1/3</div>
-            <img src="./images/bison-chili.jpg" style="width:100%">
-            <div class="text">Bison Chili</div>
-          </div>
-          <div class= "slide fade">
-            <div class="numbertext">2/3</div>
-            <img src="./images/mango-chicken-chili.jpg" style="width:100%">
-            <div class="text">Mango Habanero Chicken Chili</div>
-          </div>
-          <div class= "slide fade">
-            <div class="numbertext">3/3</div>
-            <img src="./images/lamb-chili.jpg" style="width:100%">
-            <div class="text">Lamb Chili</div>
-          </div>
-
-          <div style="justify-content: center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-          </div>
-        </div>
-      </footer>
-    <!-- <script type="text/javascript" src="./src/app.js"></script> -->
+  
 </body>
 </html>
